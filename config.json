@@ -1,0 +1,35 @@
+{
+  "urls": [
+    {
+      "url": "http://example.com/1",
+      "name": "Page 1",
+      "timeout": 30000
+    },
+    {
+      "url": "http://example.com/2",
+      "name": "Page 2",
+      "timeout": 25000
+    },
+    {
+      "url": "http://example.com/3",
+      "name": "Page 3",
+      "timeout": 20000
+    }
+  ],
+  "settings": {
+    "screenshotDelay": 5000,
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "parallelVUs": 10,
+    "maxDuration": "10m",
+    "screenshotQuality": 80,
+    "fullPageScreenshots": true
+  },
+  "thresholds": {
+    "pageLoadTime95p": 10000,
+    "initialRenderTime95p": 5000,
+    "maxErrors": 10
+  }
+}
